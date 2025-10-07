@@ -71,7 +71,7 @@ bootstrap-ui-task2/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<username>/<repo-name>.git
+git clone https://github.com/SAI-CHARAN09/bootstrap-ui-project-task2
 cd bootstrap-ui-task2
 
 Install dependencies:
