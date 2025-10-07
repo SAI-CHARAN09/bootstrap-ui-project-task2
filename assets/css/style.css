@@ -1,0 +1,52 @@
+/* Basic resets and layout */
+:root {
+  --accent: #ffb703;
+  --dark: #0f1724;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background-color: #f8f9fa;
+  color: #222;
+  scroll-behavior: smooth;
+  padding-top: 70px; /* offset for fixed navbar */
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../img/hero.jpg') center/cover no-repeat;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+.hero p {
+  font-size: 1.15rem;
+}
+
+/* Cards hover */
+.card:hover {
+  transform: translateY(-6px);
+  transition: all 0.25s ease;
+}
+
+/* Footer */
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
