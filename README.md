@@ -105,7 +105,7 @@ Branch: main
 
 Folder: /dist
 
-Live link: https://<username>.github.io/<repo-name>/
+Live link: https://sai-charan09.github.io/bootstrap-ui-project-task2/
 
 📌 References
 
